@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+A	md5.c	38;"	d	file:
+B	md5.c	39;"	d	file:
+C	md5.c	40;"	d	file:
+CRAYFIX	hash.h	57;"	d
+CRAYFIX	hash.h	59;"	d
+D	md5.c	41;"	d	file:
+DO1	md5.c	63;"	d	file:
+DO2	md5.c	64;"	d	file:
+DO3	md5.c	65;"	d	file:
+DO4	md5.c	66;"	d	file:
+DOIT	md5.c	60;"	d	file:
+F	md5.c	55;"	d	file:
+G	md5.c	56;"	d	file:
+H	md5.c	57;"	d	file:
+I	md5.c	58;"	d	file:
+LINUX	md5_types.h	9;"	d
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -O2 -Wall -g$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= md5_example$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := eng optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+MD5_CTX	md5.h	/^typedef struct md5 MD5_CTX;$/;"	t	typeref:struct:md5
+MD5_DIGEST_LENGTH	md5_lib.h	10;"	d
+MD5_Final	md5.c	/^MD5_Final (void *res, struct md5 *m)$/;"	f
+MD5_Init	md5.c	/^MD5_Init (struct md5 *m)$/;"	f
+MD5_LIB_H_	md5_lib.h	5;"	d
+MD5_TYPES_H_	md5_types.h	5;"	d
+MD5_Update	md5.c	/^MD5_Update (struct md5 *m, const void *v, MD5_size_t len)$/;"	f
+MD5_calc_bytes_order	md5.c	/^MD5_calc_bytes_order(void)$/;"	f	file:
+MD5_int16_t	md5_types.h	/^typedef INT16S      MD5_int16_t;$/;"	t
+MD5_int16_t	md5_types.h	/^typedef Int16       MD5_int16_t;$/;"	t
+MD5_int16_t	md5_types.h	/^typedef int16_t     MD5_int16_t;$/;"	t
+MD5_int32_t	md5_types.h	/^typedef INT32S      MD5_int32_t;$/;"	t
+MD5_int32_t	md5_types.h	/^typedef Int32       MD5_int32_t;$/;"	t
+MD5_int32_t	md5_types.h	/^typedef int32_t     MD5_int32_t;$/;"	t
+MD5_int8_t	md5_types.h	/^typedef INT8S       MD5_int8_t;$/;"	t
+MD5_int8_t	md5_types.h	/^typedef Int8        MD5_int8_t;$/;"	t
+MD5_int8_t	md5_types.h	/^typedef int8_t      MD5_int8_t;$/;"	t
+MD5_size_t	md5_types.h	/^typedef INT32U      MD5_size_t;$/;"	t
+MD5_size_t	md5_types.h	/^typedef UInt32      MD5_size_t;$/;"	t
+MD5_size_t	md5_types.h	/^typedef UInt64      MD5_size_t;$/;"	t
+MD5_size_t	md5_types.h	/^typedef size_t      MD5_size_t;$/;"	t
+MD5_ssize_t	md5_types.h	/^typedef INT32S      MD5_ssize_t;$/;"	t
+MD5_ssize_t	md5_types.h	/^typedef Int32       MD5_ssize_t;$/;"	t
+MD5_ssize_t	md5_types.h	/^typedef Int64       MD5_ssize_t;$/;"	t
+MD5_ssize_t	md5_types.h	/^typedef ssize_t     MD5_ssize_t;$/;"	t
+MD5_uint16_t	md5_types.h	/^typedef INT16U      MD5_uint16_t;$/;"	t
+MD5_uint16_t	md5_types.h	/^typedef UInt16      MD5_uint16_t;$/;"	t
+MD5_uint16_t	md5_types.h	/^typedef uint16_t    MD5_uint16_t;$/;"	t
+MD5_uint32_t	md5_types.h	/^typedef INT32U      MD5_uint32_t;$/;"	t
+MD5_uint32_t	md5_types.h	/^typedef UInt32      MD5_uint32_t;$/;"	t
+MD5_uint32_t	md5_types.h	/^typedef uint32_t    MD5_uint32_t;$/;"	t
+MD5_uint8_t	md5_types.h	/^typedef INT8U       MD5_uint8_t;$/;"	t
+MD5_uint8_t	md5_types.h	/^typedef UInt8       MD5_uint8_t;$/;"	t
+MD5_uint8_t	md5_types.h	/^typedef uint8_t     MD5_uint8_t;$/;"	t
+X	md5.c	42;"	d	file:
+__hash_h__	hash.h	39;"	d
+a	md5.c	/^    MD5_uint32_t a;$/;"	m	struct:x32	file:
+b	md5.c	/^    MD5_uint32_t b;$/;"	m	struct:x32	file:
+bytes_order	md5.c	/^}bytes_order;$/;"	v	typeref:union:__anon1	file:
+c	md5.c	/^    char        c[4];$/;"	m	union:__anon1	file:
+calc	md5.c	/^calc (struct md5 *m, MD5_uint32_t *data)$/;"	f	file:
+counter	md5.h	/^  MD5_uint32_t counter[4];$/;"	m	struct:md5
+cshift	hash.c	/^cshift(MD5_uint32_t x, MD5_uint32_t n)$/;"	f
+do_md5	example.c	/^static int do_md5(const char *path)$/;"	f	file:
+final_md5	md5_lib.c	/^int final_md5(MD5_CTX *md5_ctx, char *md5_str, MD5_uint8_t len)$/;"	f
+init_md5	md5_lib.c	/^MD5_CTX init_md5(void)$/;"	f
+main	example.c	/^int main(int argc, char *argv[])$/;"	f
+md5	md5.h	/^struct md5 {$/;"	s
+min	hash.h	46;"	d
+s	md5.c	/^    MD5_int16_t s;$/;"	m	union:__anon1	file:
+save	md5.h	/^  unsigned char save[64];$/;"	m	struct:md5
+swap_MD5_uint32_t	md5.c	/^swap_MD5_uint32_t (MD5_uint32_t t)$/;"	f	file:
+sz	md5.h	/^  MD5_uint32_t sz[2];$/;"	m	struct:md5
+update_md5	md5_lib.c	/^int update_md5(MD5_CTX *md5_ctx, const void *p, MD5_size_t len)$/;"	f
+usage	example.c	/^static int usage()$/;"	f	file:
+x32	md5.c	/^struct x32{$/;"	s	file:
